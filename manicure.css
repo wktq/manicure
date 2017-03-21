@@ -1,0 +1,15 @@
+.mThumb {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.mThumb img {
+  display: none;
+  float: left;
+  left: 0;
+}
+
+.mThumb img.active {
+  display: block;
+}
